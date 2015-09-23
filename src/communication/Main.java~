@@ -22,7 +22,7 @@ public class Main {
 		Object[] cryptoValues = { "Cifra", "Hash" };
 		Object crypto = JOptionPane.showInputDialog(null, "Defina a técnica de criptografia:",
 				"Criptografia", JOptionPane.INFORMATION_MESSAGE, null, cryptoValues,
-				cryptoValues[0]);
+				possibleValues[0]);
 		
 		if (communication == "TCP") {
 			
